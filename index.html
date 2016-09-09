@@ -53,7 +53,6 @@
     var out = this._convertRecord(record);
     if (out) {
       out.headline = record.get('deadline').toString();
-      out.text: record.get('description');
     }
     return out;
   }
